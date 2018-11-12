@@ -1,0 +1,26 @@
+<html>
+<body>
+<script>
+var drawTrees = parseInt(prompt("How many trees would you like? I can draw up to 6 trees for you."));
+var tree = ('    /\\' +'\n' +  '   /  \\' +'\n'+'   /  \\' +'\n'+'  /    \\'+'\n'+' /      \\'+'\n'+'    ||  '+'\n'+'    ||  '+"\n");
+if (drawTrees==6) {
+	console.log(tree+'\n'+tree+'\n'+tree+'\n'+tree+'\n'+tree+'\n'+tree)
+}
+else if (drawTrees==5) {
+	console.log(tree+'\n'+tree+'\n'+tree+'\n'+tree+'\n'+tree)
+}
+else if (drawTrees==4) {
+	console.log(tree+'\n'+tree+'\n'+tree+'\n'+tree)
+}
+else if (drawTrees==3) {
+	console.log(tree+'\n'+tree+'\n'+tree)
+}
+else if (drawTrees==2) {
+	console.log(tree+'\n'+tree)
+}
+else if (drawTrees==1) {
+	console.log(tree)
+}
+</script>
+</body>
+</html>
